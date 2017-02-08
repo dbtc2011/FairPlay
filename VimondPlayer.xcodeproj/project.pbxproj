@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5009D6F11E402B050015F997 /* fairplay.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5009D6F01E402B050015F997 /* fairplay.cer */; };
+		5009D6F41E402B310015F997 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5009D6F21E402B310015F997 /* PlayerView.swift */; };
+		5009D6F51E402B310015F997 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5009D6F31E402B310015F997 /* PlayerViewController.swift */; };
+		50E0E1891E36F982009A2B7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E0E1881E36F982009A2B7E /* AppDelegate.swift */; };
+		50E0E18B1E36F982009A2B7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E0E18A1E36F982009A2B7E /* ViewController.swift */; };
+		50E0E18E1E36F982009A2B7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E0E18C1E36F982009A2B7E /* Main.storyboard */; };
+		50E0E1901E36F982009A2B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E0E18F1E36F982009A2B7E /* Assets.xcassets */; };
+		50E0E1931E36F982009A2B7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E0E1911E36F982009A2B7E /* LaunchScreen.storyboard */; };
+		50E0E19B1E372511009A2B7E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E0E19A1E372511009A2B7E /* AVFoundation.framework */; };
+		50E0E19D1E37256D009A2B7E /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E0E19C1E37256D009A2B7E /* AVKit.framework */; };
+		50E264DE1E417B5E009B3023 /* VimondPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E264DD1E417B5E009B3023 /* VimondPlayerViewController.swift */; };
+		BCA83738B040F9B818664F9A /* Pods_VimondPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CF02F9D5649AB967FDDBC4 /* Pods_VimondPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5009D6F01E402B050015F997 /* fairplay.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = fairplay.cer; sourceTree = "<group>"; };
+		5009D6F21E402B310015F997 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		5009D6F31E402B310015F997 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		502137061E389ADA00C2F392 /* VimondPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VimondPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		50E0E1851E36F982009A2B7E /* VimondPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimondPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E0E1881E36F982009A2B7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50E0E18A1E36F982009A2B7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50E0E18D1E36F982009A2B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50E0E18F1E36F982009A2B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50E0E1921E36F982009A2B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50E0E1941E36F982009A2B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E0E19A1E372511009A2B7E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		50E0E19C1E37256D009A2B7E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		50E264DD1E417B5E009B3023 /* VimondPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VimondPlayerViewController.swift; sourceTree = "<group>"; };
+		B407BFB1CC8FC00463856481 /* Pods-VimondPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimondPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VimondPlayer/Pods-VimondPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		F08B329929B1B00578BFD802 /* Pods-VimondPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimondPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-VimondPlayer/Pods-VimondPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		F1CF02F9D5649AB967FDDBC4 /* Pods_VimondPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VimondPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50E0E1821E36F981009A2B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E0E19D1E37256D009A2B7E /* AVKit.framework in Frameworks */,
+				50E0E19B1E372511009A2B7E /* AVFoundation.framework in Frameworks */,
+				BCA83738B040F9B818664F9A /* Pods_VimondPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50E0E17C1E36F981009A2B7E = {
+			isa = PBXGroup;
+			children = (
+				50E0E1871E36F982009A2B7E /* VimondPlayer */,
+				50E0E1861E36F982009A2B7E /* Products */,
+				85E1B6938884C84ED7694343 /* Pods */,
+				6598CBB5BC6AC5EDAD0A35BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50E0E1861E36F982009A2B7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50E0E1851E36F982009A2B7E /* VimondPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50E0E1871E36F982009A2B7E /* VimondPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				50E0E1881E36F982009A2B7E /* AppDelegate.swift */,
+				5009D6F21E402B310015F997 /* PlayerView.swift */,
+				5009D6F31E402B310015F997 /* PlayerViewController.swift */,
+				50E0E18A1E36F982009A2B7E /* ViewController.swift */,
+				50E264DD1E417B5E009B3023 /* VimondPlayerViewController.swift */,
+				5009D6F01E402B050015F997 /* fairplay.cer */,
+				50E0E18C1E36F982009A2B7E /* Main.storyboard */,
+				50E0E18F1E36F982009A2B7E /* Assets.xcassets */,
+				50E0E1911E36F982009A2B7E /* LaunchScreen.storyboard */,
+				50E0E1941E36F982009A2B7E /* Info.plist */,
+				502137061E389ADA00C2F392 /* VimondPlayer-Bridging-Header.h */,
+			);
+			path = VimondPlayer;
+			sourceTree = "<group>";
+		};
+		6598CBB5BC6AC5EDAD0A35BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50E0E19C1E37256D009A2B7E /* AVKit.framework */,
+				50E0E19A1E372511009A2B7E /* AVFoundation.framework */,
+				F1CF02F9D5649AB967FDDBC4 /* Pods_VimondPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85E1B6938884C84ED7694343 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B407BFB1CC8FC00463856481 /* Pods-VimondPlayer.debug.xcconfig */,
+				F08B329929B1B00578BFD802 /* Pods-VimondPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50E0E1841E36F981009A2B7E /* VimondPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E0E1971E36F982009A2B7E /* Build configuration list for PBXNativeTarget "VimondPlayer" */;
+			buildPhases = (
+				6A885F07E50A104312415414 /* [CP] Check Pods Manifest.lock */,
+				50E0E1811E36F981009A2B7E /* Sources */,
+				50E0E1821E36F981009A2B7E /* Frameworks */,
+				50E0E1831E36F981009A2B7E /* Resources */,
+				C78EC19FA080B79FB2CD9E1D /* [CP] Embed Pods Frameworks */,
+				E0229BADD9A1C0F73EDA0E65 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VimondPlayer;
+			productName = VimondPlayer;
+			productReference = 50E0E1851E36F982009A2B7E /* VimondPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50E0E17D1E36F981009A2B7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mark Louie Angeles";
+				TargetAttributes = {
+					50E0E1841E36F981009A2B7E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 50E0E1801E36F981009A2B7E /* Build configuration list for PBXProject "VimondPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50E0E17C1E36F981009A2B7E;
+			productRefGroup = 50E0E1861E36F982009A2B7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50E0E1841E36F981009A2B7E /* VimondPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50E0E1831E36F981009A2B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5009D6F11E402B050015F997 /* fairplay.cer in Resources */,
+				50E0E1931E36F982009A2B7E /* LaunchScreen.storyboard in Resources */,
+				50E0E1901E36F982009A2B7E /* Assets.xcassets in Resources */,
+				50E0E18E1E36F982009A2B7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A885F07E50A104312415414 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C78EC19FA080B79FB2CD9E1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VimondPlayer/Pods-VimondPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0229BADD9A1C0F73EDA0E65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VimondPlayer/Pods-VimondPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50E0E1811E36F981009A2B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E264DE1E417B5E009B3023 /* VimondPlayerViewController.swift in Sources */,
+				5009D6F41E402B310015F997 /* PlayerView.swift in Sources */,
+				5009D6F51E402B310015F997 /* PlayerViewController.swift in Sources */,
+				50E0E18B1E36F982009A2B7E /* ViewController.swift in Sources */,
+				50E0E1891E36F982009A2B7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50E0E18C1E36F982009A2B7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E0E18D1E36F982009A2B7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50E0E1911E36F982009A2B7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E0E1921E36F982009A2B7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50E0E1951E36F982009A2B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50E0E1961E36F982009A2B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50E0E1981E36F982009A2B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B407BFB1CC8FC00463856481 /* Pods-VimondPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = VimondPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stratpoint.VimondPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VimondPlayer/VimondPlayer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50E0E1991E36F982009A2B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08B329929B1B00578BFD802 /* Pods-VimondPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = VimondPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stratpoint.VimondPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VimondPlayer/VimondPlayer-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50E0E1801E36F981009A2B7E /* Build configuration list for PBXProject "VimondPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E0E1951E36F982009A2B7E /* Debug */,
+				50E0E1961E36F982009A2B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E0E1971E36F982009A2B7E /* Build configuration list for PBXNativeTarget "VimondPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E0E1981E36F982009A2B7E /* Debug */,
+				50E0E1991E36F982009A2B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50E0E17D1E36F981009A2B7E /* Project object */;
+}
